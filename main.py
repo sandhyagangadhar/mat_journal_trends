@@ -31,12 +31,6 @@ wordutility.count_words(df)
 textprocessor=TextProcessor()
 corpus=textprocessor.process(df)
 
-#Visulaization of text
-#visual=Visualization()
-#visual.visulalize_text(corpus)
-
-#visual.visualize_unigrams(corpus)
-
 #vectorization and tokenization
 vec = VectorizationToken()
 vec.findWordcountVector(corpus)
